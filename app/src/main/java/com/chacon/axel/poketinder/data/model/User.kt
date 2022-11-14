@@ -1,4 +1,4 @@
-package com.chacon.axel.poketinder
+package com.chacon.axel.poketinder.data.model
 
 import java.io.Serializable
 

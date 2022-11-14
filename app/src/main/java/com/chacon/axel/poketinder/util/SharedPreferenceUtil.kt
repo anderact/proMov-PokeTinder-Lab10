@@ -1,8 +1,9 @@
-package com.chacon.axel.poketinder
+package com.chacon.axel.poketinder.util
 
 import android.content.Context
 import android.content.SharedPreferences
 import android.util.Log
+import com.chacon.axel.poketinder.data.model.User
 import com.google.gson.Gson
 
 class SharedPreferenceUtil {

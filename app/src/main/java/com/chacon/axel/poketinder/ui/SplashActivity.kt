@@ -1,7 +1,6 @@
-package com.chacon.axel.poketinder
+package com.chacon.axel.poketinder.ui
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
