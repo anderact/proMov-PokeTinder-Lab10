@@ -1,10 +1,8 @@
-package com.chacon.axel.poketinder.ui
+package com.chacon.axel.poketinder.ui.view
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
-import com.chacon.axel.poketinder.util.SharedPreferenceUtil
-import com.chacon.axel.poketinder.data.model.User
 import com.chacon.axel.poketinder.databinding.ActivityLoginBinding
 import com.chacon.axel.poketinder.ui.viewmodel.LoginViewModel
 

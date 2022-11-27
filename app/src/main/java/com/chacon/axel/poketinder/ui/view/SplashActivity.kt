@@ -1,4 +1,4 @@
-package com.chacon.axel.poketinder.ui
+package com.chacon.axel.poketinder.ui.view
 
 import android.content.Intent
 import android.os.Bundle

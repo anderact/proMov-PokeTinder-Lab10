@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.chacon.axel.poketinder.ui.HomeFragment"
+        android:name="com.chacon.axel.poketinder.ui.view.HomeFragment"
         android:label="Inicio"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/navigation_favorite"
-        android:name="com.chacon.axel.poketinder.ui.FavoriteFragment"
+        android:name="com.chacon.axel.poketinder.ui.view.FavoriteFragment"
         android:label="Favoritos"
         tools:layout="@layout/fragment_favorite" />
 
     <fragment
         android:id="@+id/navigation_info"
-        android:name="com.chacon.axel.poketinder.ui.InfoFragment"
+        android:name="com.chacon.axel.poketinder.ui.view.InfoFragment"
         android:label="Info"
         tools:layout="@layout/fragment_info" />
 </navigation>

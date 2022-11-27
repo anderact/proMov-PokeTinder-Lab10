@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/gradient_main_background"
     android:orientation="vertical"
-    tools:context=".ui.MainActivity">
+    tools:context=".ui.view.MainActivity">
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/nav_view"

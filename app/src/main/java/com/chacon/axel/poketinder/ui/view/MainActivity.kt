@@ -1,4 +1,4 @@
-package com.chacon.axel.poketinder.ui
+package com.chacon.axel.poketinder.ui.view
 
 import android.os.Bundle
 import androidx.navigation.findNavController
