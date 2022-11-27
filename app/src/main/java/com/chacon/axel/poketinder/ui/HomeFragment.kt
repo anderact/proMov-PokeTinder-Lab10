@@ -7,7 +7,7 @@ import android.view.animation.LinearInterpolator
 import androidx.core.view.isVisible
 import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.DefaultItemAnimator
-import com.chacon.axel.poketinder.adapter.PokemonAdapter
+import com.chacon.axel.poketinder.ui.adapter.PokemonAdapter
 import com.chacon.axel.poketinder.data.model.PokemonResponse
 import com.chacon.axel.poketinder.databinding.FragmentHomeBinding
 import com.chacon.axel.poketinder.ui.viewmodel.HomeViewModel
@@ -107,7 +107,10 @@ class HomeFragment: BaseFragment<FragmentHomeBinding>(FragmentHomeBinding::infla
     }
 
     override fun onCardSwiped(direction: Direction?) {
-
+        if (direction == Direction.Right) {
+            val pokemon = adapter.list[manager.topPosition -1]
+            homeViewModel.savePokemon(pokemon, requireContext())
+        }
     }
 
     override fun onCardRewound() {

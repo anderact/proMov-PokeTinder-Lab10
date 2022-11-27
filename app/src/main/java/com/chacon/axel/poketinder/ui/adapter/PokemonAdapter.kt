@@ -1,4 +1,4 @@
-package com.chacon.axel.poketinder.adapter
+package com.chacon.axel.poketinder.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.View
