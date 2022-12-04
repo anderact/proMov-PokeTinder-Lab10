@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "314534030749",
+    "project_id": "poketindernew-4c3ca",
+    "storage_bucket": "poketindernew-4c3ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:314534030749:android:34c8dc066fc0d3b1ac5374",
+        "android_client_info": {
+          "package_name": "com.chacon.axel.poketinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "314534030749-l2h6bdrpukoff3ujgsbvr9g5iq2hkba0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYylVpi0imzVtpmaTY5YxkslCCSCiLFEQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "314534030749-l2h6bdrpukoff3ujgsbvr9g5iq2hkba0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
